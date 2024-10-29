@@ -46,7 +46,7 @@ function levelUp() {
     let randIdx = Math.floor(Math.random() * 11);
     let randColor = btns[randIdx];
     console.log(randColor);
-    let randBtn = document.querySelector(`.${randColor}`);
+    let randBtn = document.querySelector(`#${randColor}`);
     
     // console.log(randIdx);
     // console.log(randColor);
@@ -65,7 +65,7 @@ function checkAns(idx) {
     h2.innerHTML = `Game over! your score was <b>${level}</b> <br> Press any key to start`
     document.querySelector("body").style.backgroundColor = "red";
     setTimeout(function () {
-        document.querySelector("body").style.backgroundColor = "white";
+        document.querySelector("body").style.backgroundColor = "rgba(5, 73, 5, 0.967)";
     },1000);
     reset();
 }
