@@ -1,0 +1,2 @@
+let gameSeq = [];
+let userSeq = [];
