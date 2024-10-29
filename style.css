@@ -16,3 +16,13 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.gameFlash {
+    background-color: blue;
+    box-shadow: 2px 2px 2px blue;
+}
+
+.userFlash {
+    background-color: green;
+    box-shadow: 2px 2px 2px green;
+}
